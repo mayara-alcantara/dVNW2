@@ -73,12 +73,12 @@ main .informacoes img {
 
 main .informacoes h3 {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px 0;
 }
 
 main .informacoes p {
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 2px;
   font-weight: 300;
 }
@@ -109,28 +109,34 @@ main .itens figure {
     margin-top: 30px;
     height: 450px;
   }
+
   header .background img {
     display: none;
   }
+
   header nav,
   header ul {
     flex-direction: column;
     margin-top: 30px;
     align-items: center;
   }
+
   main {
     justify-content: center;
   }
+
   main .principal,
   main .itens {
     flex-direction: column;
     width: auto;
     margin-top: 15px;
   }
+
   main .informacoes,
   main .itens h3 {
     width: 100%;
   }
+
   main .informacoes p {
     padding: 20px 0;
     line-height: 2rem;
